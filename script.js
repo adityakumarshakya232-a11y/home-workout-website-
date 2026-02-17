@@ -7,11 +7,11 @@ for (let i = 1; i <= 10; i++) {
   workoutData.push({
     level: "Beginner",
     exercises: [
-      { name: "Jumping Jacks (Cardio)", sets: 2, reps: 20 + i, img: "image/jumping-jacks.png" },
-      { name: "Push-ups (Chest)", sets: 2, reps: 8 + i, img: "image/pushups.png" },
-      { name: "Bodyweight Squats (Legs)", sets: 2, reps: 12 + i, img: "image/squats.png" },
-      { name: "Lunges (Legs)", sets: 2, reps: 10 + i, img: "image/lunges.png" },
-      { name: "Plank (Core)", sets: 2, reps: (15 + i * 2) + " sec", img: "image/plank.png" }
+      { name: "Jumping Jacks (Cardio)", sets: 2, reps: 20 + i, img: "jumping-jacks.png" },
+      { name: "Push-ups (Chest)", sets: 2, reps: 8 + i, img: "pushups.png" },
+      { name: "Bodyweight Squats (Legs)", sets: 2, reps: 12 + i, img: "squats.png" },
+      { name: "Lunges (Legs)", sets: 2, reps: 10 + i, img: "lunges.png" },
+      { name: "Plank (Core)", sets: 2, reps: (15 + i * 2) + " sec", img: "plank.png" }
     ]
   });
 }
@@ -21,11 +21,11 @@ for (let i = 1; i <= 10; i++) {
   workoutData.push({
     level: "Intermediate",
     exercises: [
-      { name: "High Knees (Cardio)", sets: 3, reps: (30 + i * 2) + " sec", img: "image/mountain.png" },
-      { name: "Push-ups", sets: 3, reps: 15 + i, img: "image/pushups.png" },
-      { name: "Jump Squats", sets: 3, reps: 15 + i, img: "image/squats.png" },
-      { name: "Burpees", sets: 2, reps: 8 + i, img: "image/burpees.png" },
-      { name: "Plank", sets: 3, reps: (30 + i * 3) + " sec", img: "image/plank.png" }
+      { name: "High Knees (Cardio)", sets: 3, reps: (30 + i * 2) + " sec", img: "mountain.png" },
+      { name: "Push-ups", sets: 3, reps: 15 + i, img: "pushups.png" },
+      { name: "Jump Squats", sets: 3, reps: 15 + i, img: "squats.png" },
+      { name: "Burpees", sets: 2, reps: 8 + i, img: "burpees.png" },
+      { name: "Plank", sets: 3, reps: (30 + i * 3) + " sec", img: "plank.png" }
     ]
   });
 }
@@ -35,11 +35,11 @@ for (let i = 1; i <= 10; i++) {
   workoutData.push({
     level: "Advanced",
     exercises: [
-      { name: "Burpees (Full Body)", sets: 3, reps: 15 + i, img: "image/burpees.png" },
-      { name: "Diamond Push-ups", sets: 3, reps: 18 + i, img: "image/pushups.png" },
-      { name: "Jump Squats", sets: 3, reps: 20 + i, img: "image/squats.png" },
-      { name: "Mountain Climbers", sets: 3, reps: (40 + i * 3) + " sec", img: "image/mountain.png" },
-      { name: "Plank", sets: 3, reps: (45 + i * 4) + " sec", img: "image/plank.png" }
+      { name: "Burpees (Full Body)", sets: 3, reps: 15 + i, img: "burpees.png" },
+      { name: "Diamond Push-ups", sets: 3, reps: 18 + i, img: "pushups.png" },
+      { name: "Jump Squats", sets: 3, reps: 20 + i, img: "squats.png" },
+      { name: "Mountain Climbers", sets: 3, reps: (40 + i * 3) + " sec", img: "mountain.png" },
+      { name: "Plank", sets: 3, reps: (45 + i * 4) + " sec", img: "plank.png" }
     ]
   });
 }
@@ -98,3 +98,4 @@ function showNotification(msg) {
 }
 
 loadWorkout();
+
